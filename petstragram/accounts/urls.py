@@ -8,6 +8,4 @@ urlpatterns = (
     path('profile/<int:pk>/', include([
         path('', details_profile, name='details profile'),
         path('edit/', edit_profile, name='edit profile'),
-        path('delete/', delete_profile, name='delete profile')
-]),
-))
+        path('delete/', delete_profile, name='delete profile') ]),))
