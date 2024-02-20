@@ -34,21 +34,21 @@
                     <li class="nav-item">
 
                         <!-- Link to Add Pet Page -->
-                        <a href="#">
+                        <a href="{%  url 'create pet'  %}">
                             <i>Add Pet</i>
                         </a>
                     </li>
                     <li class="nav-item">
 
                         <!-- Link to Add Photo Page -->
-                        <a href="#">
+                        <a href="{%  url 'add photo'  %}">
                             <i>Add Photo</i>
                         </a>
                     </li>
                     <li class="nav-item">
 
                         <!-- Link to Profile Page -->
-                        <a href="#">
+                        <a href="{%  url 'details profile'  %}">
                             <i>Profile</i>
                         </a>
                     </li>
@@ -77,8 +77,8 @@
                     <!-- Start User Details and Image Location Section -->
                     <div class="userDetails">
 
-                        <!-- Link to User Profile Details Page-->
-                        <a href="#">
+                        <!-- TODO Link to User Profile Details Page-->
+                        <a href="{%  url 'index'  %}">
                             <div class="profilepic">
                                 <div class="profile_img">
                                     <div class="image">
@@ -105,13 +105,13 @@
                             <div class="edit-delete-btns">
 
                                 <!-- Link to Edit Pet Photo Page -->
-                                <a href="#">
+                                <a href="{%  url 'edit photo'  %}">
                                     <img class="edit-img" src="{% static '/images/edit-pen-icon-6.jpg' %}"
                                          alt="edit button">
                                 </a>
 
                                 <!-- Link to Delete Pet Photo Page -->
-                                <a href="#">
+                                <a href="{%  url 'delete pet'  %}">
                                     <img class="bin-img" src="{% static '/images/icon-remove-22.jpg' %}" alt="bin button">
                                 </a>
                             </div>
