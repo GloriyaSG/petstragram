@@ -19,7 +19,7 @@
         <div class="container">
             <div class="logo">
                 <!-- Link to Home Page -->
-                <a href="#">
+                <a href="{%  url 'index'  %}">
                     <img width="50px" src="{% static '/images/free-30-instagram-stories-icons23_122570.png' %}" alt="img1">
                 </a>
 
@@ -34,28 +34,28 @@
                     <li class="nav-item">
 
                         <!-- Link to Add Pet Page -->
-                        <a href="#">
+                        <a href="{%  url 'create pet'  %}">
                             <i>Add Pet</i>
                         </a>
                     </li>
                     <li class="nav-item">
 
                         <!-- Link to Add Photo Page -->
-                        <a href="#">
+                        <a href="{%  url 'add photo'  %}">
                             <i>Add Photo</i>
                         </a>
                     </li>
                     <li class="nav-item">
 
-                        <!-- Link to Login Page -->
-                        <a href="#">
+                        <!-- TODO Link to Login Page -->
+                        <a href="{%  url ''  %}">
                             <i>Login</i>
                         </a>
                     </li>
                     <li class="nav-item">
 
                         <!-- Link to Register Page -->
-                        <a href="">
+                        <a href="{%  url 'signin user'  %}">
                             <i>Register</i>
                         </a>
                     </li>
@@ -92,8 +92,8 @@
         </div>
         <div class="second-option">
 
-            <!-- Link to Login Page -->
-            <p>Have an account? <a href="#">Log in</a></p>
+            <!-- TODO Link to Login Page -->
+            <p>Have an account? <a href="{%  url 'signin user'  %}">Log in</a></p>
         </div>
     </div>
     <!-- End Register Section -->
